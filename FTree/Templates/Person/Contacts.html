@@ -1,0 +1,38 @@
+﻿<div uib-accordion-group class="panel-default panel-accordion-group" heading="{{data.Constants.name_header_person_contacts}}" ng-if="(data.Contacts.length > 0) || (data.Addresses.length > 0) || (data.Comments.length > 0)" is-open="true">
+
+    <!-- TODO: udpate template to support edit mode! -->
+
+    <!-- Contacts -->
+    <div>
+        <h5 class="row">
+            <span class="col-xs-12">{{data.Constants.name_header_contacts}}</span>
+        </h5>
+        <div class="row" ng-repeat="c in data.Contacts" ng-class="'color' + ($index % 3)">
+            <span class="col-xs-4">{{c.Name}}</span>
+            <span class="col-xs-8">{{c.Text}}</span>
+        </div>
+    </div>
+
+    <!-- Addresses -->
+    <div>
+        <h5 class="row">
+            <span class="col-xs-12">{{data.Constants.name_header_addresses}}</span>
+        </h5>
+        <div class="row" ng-class="'color1'">
+            <sapn class="col-xs-3">Name</sapn>
+            <sapn class="col-xs-6">Address</sapn>
+            <sapn class="col-xs-2">Date From</sapn>
+            <sapn class="col-xs-1">Is Own</sapn>
+        </div>
+        <div class="row" ng-repeat="a in data.Addresses" ng-class-odd="'color2'">
+            <sapn class="col-xs-3">{{a.Name}}</sapn>
+            <sapn class="col-xs-6">{{a.Address}}</sapn>
+            <sapn class="col-xs-2">{{a.DateFrom}}</sapn>
+            <sapn class="col-xs-1">{{a.IsOwn}}</sapn>
+        </div>
+    </div>
+
+    <!-- Comments -->
+    <comments comments="data.Comments" col12="true"></comments>
+
+</div>

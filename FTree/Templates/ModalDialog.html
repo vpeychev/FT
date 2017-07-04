@@ -1,0 +1,35 @@
+﻿<div class="modal-header">
+    <h3 class="modal-title" id="modal-title">
+        <span ng-if="$ctrl.person.Id==-1">{{$ctrl.person.Constants.name_button_add_person}}</span>
+        <span ng-if="$ctrl.person.Id!=-1">{{$ctrl.person.Constants.name_button_edit_person}}</span>
+        <i class="fa fa-times pull-right" style="cursor:pointer;" ng-click="$ctrl.cancel()"></i>
+    </h3>
+    <div class="row">
+        <div class="col-xs-2" style="background-color:#ededed;">
+            <i class="fa fa-group"></i>
+            <span style="padding-left:10px; font-weight:bold;">{{ $ctrl.person.Family }}</span>
+        </div>
+        <div class="col-xs-4">
+            <i class="fa fa-male" ng-if="$ctrl.person.Sex===$ctrl.person.Constants.name_sex_male_abrev || $ctrl.person.Sex===$ctrl.person.Constants.name_sex_male"></i>
+            <i class="fa fa-female" ng-if="$ctrl.person.Sex===$ctrl.person.Constants.name_sex_female_abrev || $ctrl.person.Sex===$ctrl.person.Constants.name_sex_female"></i>
+            <span style="padding-left:10px; font-weight:bold;">{{ $ctrl.person.Name }}</span>
+        </div>
+    </div>
+</div>
+<div class="modal-body" id="modal-body">
+    <uib-accordion class="row" close-others="false">
+        <person-common mode="{{$ctrl.mode}}" data="$ctrl.person" add="$ctrl.add(obj, objName, properties, values)" toggle="$ctrl.toggle(obj, property, value)"></person-common>
+        <person-relationships mode="{{$ctrl.mode}}" data="$ctrl.person" add="$ctrl.add(obj, objName, properties, values)" toggle="$ctrl.toggle(obj, property, value)"></person-relationships>
+        <person-contacts mode="{{$ctrl.mode}}" data="$ctrl.person" add="$ctrl.add(obj, objName, properties, values)" toggle="$ctrl.toggle(obj, property, value)"></person-contacts>
+        <person-education mode="{{$ctrl.mode}}" data="$ctrl.person" add="$ctrl.add(obj, objName, properties, values)" toggle="$ctrl.toggle(obj, property, value)"></person-education>
+        <person-professions mode="{{$ctrl.mode}}" data="$ctrl.person" add="$ctrl.add(obj, objName, properties, values)" toggle="$ctrl.toggle(obj, property, value)"></person-professions>
+        <person-work-history mode="{{$ctrl.mode}}" data="$ctrl.person" add="$ctrl.add(obj, objName, properties, values)" toggle="$ctrl.toggle(obj, property, value)"></person-work-history>
+        <person-events mode="{{$ctrl.mode}}" data="$ctrl.person" add="$ctrl.add(obj, objName, properties, values)" toggle="$ctrl.toggle(obj, property, value)"></person-events>
+        <person-galleries mode="{{$ctrl.mode}}" data="$ctrl.person" add="$ctrl.add(obj, objName, properties, values)" toggle="$ctrl.toggle(obj, property, value)"></person-galleries>
+    </uib-accordion>
+</div>
+
+<div class="modal-footer">
+    <button class="btn btn-primary" type="button" ng-click="$ctrl.save()">{{$ctrl.person.Constants.name_button_save}}</button>
+    <button class="btn btn-warning" type="button" ng-click="$ctrl.cancel()">{{$ctrl.person.Constants.name_button_cancel}}</button>
+</div>

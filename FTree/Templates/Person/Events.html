@@ -1,0 +1,19 @@
+﻿<div uib-accordion-group class="panel-default panel-accordion-group" heading="{{data.Constants.name_header_person_events}}" is-open="true" ng-if="data.Events.length > 0">
+    <div class="row" ng-class="'color1'">
+        <sapn class="col-xs-3">Name</sapn>
+        <sapn class="col-xs-2">Date</sapn>
+        <sapn class="col-xs-2">Where</sapn>
+        <sapn class="col-xs-5">Description</sapn>
+    </div>
+    <div ng-repeat="evt in data.Events" ng-class-odd="'color1'">
+        <!-- Event -->
+        <div class="row">
+            <span class="col-xs-3">{{evt.Name}}</span>
+            <span class="col-xs-2">{{evt.Date}}</span>
+            <span class="col-xs-2">{{evt.Address}}</span>
+            <span class="col-xs-5">{{evt.Description}}</span>
+        </div>
+        <!-- Comments -->
+        <comments comments="evt.Comments"></comments>
+    </div>
+</div>

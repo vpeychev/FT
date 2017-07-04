@@ -1,0 +1,58 @@
+﻿<div uib-accordion-group class="panel-default panel-accordion-group" heading="{{data.Constants.name_header_person_common}}" is-open="true">
+    <!-- Common info (sex, age, dates) -->
+    <div class="row">
+        <div class="col-xs-12 col-sm-5">
+            <!-- Sex -->
+            <div class="row">
+                <label for="person-sex" class="col-xs-3">{{data.Constants.name_sex}}</label>
+                <span ng-if="mode!==data.Constants.mode_edit">{{data.Sex===data.Constants.name_sex_male_abrev || data.Sex===data.Constants.name_sex_male ? data.Constants.name_sex_male : data.Constants.name_sex_female}}</span>
+                <div ng-if="mode===data.Constants.mode_edit" id="person-sex" class="btn-group" uib-dropdown keyboard-nav class="col-xs-4">
+                    <button id="simple-btn-keyboard-nav" type="button" class="btn btn-default" uib-dropdown-toggle>
+                        {{data.Sex===data.Constants.name_sex_male_abrev || data.Sex===data.Constants.name_sex_male ? data.Constants.name_sex_male : data.Constants.name_sex_female}}
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" uib-dropdown-menu role="menu" aria-labelledby="simple-btn-keyboard-nav">
+                        <li role="menuitem"><a href="#" ng-class="{'active': data.Sex === data.Constants.name_sex_male_abrev }" ng-click="toggle({ obj: data, property: data.Constants.name_sex, value: data.Constants.name_sex_male_abrev })">{{data.Constatns.name_sex_male}}</a></li>
+                        <li role="menuitem"><a href="#" ng-class="{'active': data.Sex === data.Constants.name_sex_female_abrev }" ng-click="toggle({ obj: data, property: data.Constants.name_sex, value: data.Constants.name_sex_female_abrev })">{{data.Constatns.name_sex_female}}</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Age -->
+            <label-value-input label="Age" value="data.Age" col-size="7" mode="{{mode}}"></label-value-input>        <!--mode="Edit-->
+        </div>
+        <div class="col-xs-12 col-sm-7">
+            <div class="row">
+                <!-- Born -->
+                <special-dates obj="data.SpecialDates.Born" name="Born" mode="{{mode}}"></special-dates>
+                <!-- Pass away -->
+                <special-dates obj="data.SpecialDates.PassAway" name="Pass away" mode="{{mode}}"></special-dates>
+            </div>
+        </div>
+    </div>
+
+    <!-- Names and Aliases -->
+    <div class="row">
+        <hr />
+        <!-- Names -->
+        <div class="col-sm-7 col-md-7 col=lg-7" ng-if="data.NamesAndAliases.Names.length > 0">
+            <h4>{{data.Constants.name_header_names}}</h4>
+            <div ng-repeat="name in data.NamesAndAliases.Names">
+                <label-value-input label="Name {{name.Id}}" value="name.Name" col-size="7" mode="{{mode}}" is-disabled="{{name.Name!==data.Constants.NA}}"></label-value-input>
+            </div>
+            <div ng-if="mode===data.Constants.mode_edit">
+                <button class="btn btn-default" ng-click="data.NamesAndAliases.Names=add({ obj: data.NamesAndAliases.Names === undefined ? data.NamesAndAliases : data.NamesAndAliases.Names, objName: data.NamesAndAliases.Names === undefined ? 'Name' : undefined, properties: ['First', 'Last', 'Middle', 'Maiden', 'Date', 'IsCurrent'], values: ['', '', '', '', '', false] })">{{data.Constants.name_button_add}}</button>
+            </div>
+        </div>
+        <!-- Aliases -->
+        <div class="col-sm-5 col-md-5 col=lg-5" ng-if="data.NamesAndAliases.Aliases.length > 0">
+            <h4>{{data.Constants.name_header_aliases}}</h4>
+            <div ng-repeat="alias in data.NamesAndAliases.Aliases">
+                <label-value-input label="Alias {{alias.Id}}" value="alias.Name" col-size="7" mode="{{mode}}" is-disabled="{{alias.Name!==data.Constants.NA}}"></label-value-input>
+            </div>
+            <div ng-if="mode===data.Constants.mode_edit">
+                <button class="btn btn-default" ng-click="data.NamesAndAliases.Aliases=add({ obj: data.NamesAndAliases.Aliases === undefined ? data.NamesAndAliases : data.NamesAndAliases.Aliases, objName: data.NamesAndAliases.Aliases === undefined ? 'Alias' : undefined, properties: [], values: [] })">{{data.Constants.name_button_add}}</button>
+            </div>
+        </div>
+
+    </div>
+</div>

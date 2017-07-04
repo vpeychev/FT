@@ -1,0 +1,42 @@
+﻿<!--TODO: move bundles in Layout  when Typescript test is done! -->
+@Styles.Render("~/Content/css")
+
+@Scripts.Render("~/bundles/angular")
+@Scripts.Render("~/bundles/bootstrap")
+@Scripts.Render("~/bundles/app")
+<!--END: TODO -->
+
+@Scripts.Render("~/bundles/nav")
+
+<!-- top navigation -->
+<nav class="navbar navbar-default" ng-controller="NavigationController">
+
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">FamTree</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            @*<li>
+                    Data
+                    <ul>
+                        <li>Import from Excel</li>
+                        <li>Export 2 Excel</li>
+                    </ul>
+                ng-click="import()"
+                </li>*@
+            <li style="border:1px solid red;"><a upload-file="uploadImport" href="#">Import</a></li>
+            <li><a href="#">Export</a></li>
+            <li><a href="#" ng-click="importExcelFile();$hide()">Process Uploaded File</a></li>
+        </ul>
+        <!--
+            Upload process is spit on 2 parts:
+            1. load file and store it in the $scope (directive: uploadFile)
+            2. parese file and save it in DB (directive: fileChange and click on "Process Upload File" to call the function registered in the directive)
+        -->
+        <input id="uploadImport"
+               type="file" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+               file-change="uploadFile"
+               style="display:none;">
+    </div>
+</nav>

@@ -1,0 +1,12 @@
+﻿<div class="row">
+    <span class="col-xs-1" ng-if="col12 != 'true'"></span>
+    <div ng-class="{'col-xs-12': col12 == 'true', 'col-xs-11': (col12 != 'true')}" ng-if="comments.length > 0">
+        <h5 class="row" style="margin-top:5px;">
+            <span class="col-xs-12">Comments</span>
+        </h5>
+        <div class="row" ng-repeat="c in comments" ng-class-odd="'color2'">
+            <sapn class="col-xs-4">{{c.Name}}</sapn>
+            <sapn class="col-xs-8">{{c.Text}}</sapn>
+        </div>
+    </div>
+    </div>

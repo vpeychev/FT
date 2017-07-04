@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Persons>
+  <Person Id="1" Name="person-name">
+    <Sex></Sex><!-- M | F -->
+    <Age></Age>
+    <Family></Family><!-- family where person has born -->
+    <MaritalStatus></MaritalStatus><!-- married, single, divorced, widowed -->
+    <Image></Image>
+    <Names>
+      <!-- person can have multiple offical names. Keep record for each of them -->
+      <Name Id="1" Name="person-name">
+        <Date></Date>
+        <!-- date of name acquaire -->
+        <IsCurrent></IsCurrent>
+        <!-- TRUE | FALSE -->
+        <Last></Last>
+        <First></First>
+        <Middle></Middle>
+        <Maiden></Maiden>
+      </Name>
+      <Alias>
+        <Item Id="1" Name="alias-name">
+          <AliasName></AliasName>
+        </Item>
+      </Alias>
+    </Names>
+    <Contacts>
+      <Contact Id="1" Name="contact-type">
+        <Text></Text>
+      </Contact>
+    </Contacts>
+    <Parents>
+      <MotherId></MotherId>
+      <FatherId></FatherId>
+      <AdoptedMotherId></AdoptedMotherId>
+      <AdoptedFatherId></AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId></LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId></LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="" Name="person-name">
+        <PersonId></PersonId>
+        <IsCurrent></IsCurrent>
+        <!-- TRUE | FALSE -->
+      </Spouse>
+    </Spouses>
+    <Locations>
+      <Location Id="1" Name="location-name">
+        <LocationId></LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn></IsOwn>
+      </Location>
+    </Locations>
+    <Education>
+      <School Id="1" Name="school name">
+        <DateStart></DateStart>
+        <DateEnd></DateEnd>
+        <DegreeId></DegreeId>
+        <LocationId></LocationId>
+        <Comments>
+          <Comment Id="" Name="comment-title">
+            <Text></Text>
+          </Comment>
+        </Comments>
+      </School>
+    </Education>
+    <Professions>
+      <Profession Id="1" Name="profession-name">
+        <IsCurrent></IsCurrent>
+        <Comments>
+          <Comment Id="" Name="comment-title">
+            <Text></Text>
+          </Comment>
+        </Comments>
+      </Profession>
+    </Professions>
+    <WorkHistory>
+      <Item Id="1" Name="company-name">
+        <DateStart></DateStart>
+        <DateEnd></DateEnd>
+        <TotalYears></TotalYears>
+        <Occupation></Occupation>
+        <Comments>
+          <Comment Id="" Name="comment-title">
+            <Text></Text>
+          </Comment>
+        </Comments>
+      </Item>
+    </WorkHistory>
+    <Events>
+      <Event Id="" Name="event-name">
+        <Date></Date>
+        <LocationId></LocationId>
+        <Description></Description>
+        <Attendees>
+          <PersonId></PersonId>
+        </Attendees>
+        <GalleryId></GalleryId>
+        <Comments>
+          <Comment Id="" Name="comment-title">
+            <Text></Text>
+          </Comment>
+        </Comments>
+      </Event>
+    </Events>
+    <Galleries>
+      <Gallery Id="" Name="gallery-name">
+        <Date></Date>
+        <Location></Location>
+        <Description></Description>
+        <Images>
+          <Image Id="" Name="image-name">
+            <Location></Location>
+            <Description></Description>
+          </Image>
+        </Images>
+        <Comments>
+          <Comment Id="" Name="comment-title">
+            <Text></Text>
+          </Comment>
+        </Comments>
+      </Gallery>
+    </Galleries>
+    <Comments>
+      <Comment Id="" Name="comment-title">
+        <Text></Text>
+      </Comment>
+    </Comments>
+  </Person>
+</Persons>

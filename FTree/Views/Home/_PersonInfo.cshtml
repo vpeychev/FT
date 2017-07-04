@@ -1,0 +1,79 @@
+﻿<section class="panel panel-default border-top-none col-md-7 col-lg-7">
+
+    <!-- heading-->
+    <div class="panel-heading panel-heading-top">
+        <h4>{{instance.events.getConstants().name_header_info_person}}</h4>
+    </div>
+
+    <!-- show no person information -->
+    <div class="row alert alert-warning" role="alert" ng-if="!instance.data.selectedPerson">
+        {{instance.events.getConstants().label_person_select}}
+    </div>
+
+    <div ng-if="instance.data.selectedPerson">
+        <!-- person family and name -->
+        <div class="row">
+            <div class="col-sm-8 col-md-8 col=lg-8">
+                <label for="family">{{instance.events.getConstants().name_header_family}}</label>
+                <h4 id="family" class="h4-inline-block">{{instance.data.selectedPerson.Family}}</h4>
+                <br />
+                <label for="name">{{instance.events.getConstants().name_name}}</label>
+                <h4 id="name" class="h4-inline-block">{{instance.data.selectedPerson.Name}}</h4>
+            </div>
+            <div class="col-sm-4 col-md-4 col=lg-4 pull-right" style="text-align:right;">
+                <img src=" " alt="photo" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 btn-group">
+                <button class="btn btn-default pull-left" ng-click="instance.data.selectedPerson=undefined">
+                    @*<i class="fa fa-window-close-o" aria-hidden="true"></i>*@
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                    {{instance.data.selectedPerson.Constants.name_button_close}}
+                </button>
+                <span class ="pull-right">
+                    <button class="btn btn-default" ng-click="instance.events.editPerson(instance.data.selectedPerson)">
+                        <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                        {{instance.data.selectedPerson.Constants.name_button_edit}}
+                    </button>
+                    <button class="btn btn-default" ng-click="instance.events.showFamilyTree(instance.data.selectedPerson)">
+                        <i class="fa fa-tree" aria-hidden="true"></i>
+                        {{instance.data.selectedPerson.Constants.name_button_showFT}}
+                    </button>
+                </span>
+            </div>
+        </div>
+
+        <uib-accordion class="row" close-others="false">
+            <!--Person data -->
+            <person-common mode="{{instance.data.selectedPerson.Constants.mode_show}}" data="instance.data.selectedPerson"></person-common>
+
+            <!-- Relationships -->
+            <person-relationships mode="{{instance.data.selectedPerson.Constants.mode_show}}" data="instance.data.selectedPerson"></person-relationships>
+
+            <!-- Contacts, Address and Comments -->
+            <person-contacts mode="{{instance.data.selectedPerson.Constants.mode_show}}" data="instance.data.selectedPerson"></person-contacts>
+
+            <!-- Eduction -->
+            <person-education mode="{{instance.data.selectedPerson.Constants.mode_show}}" data="instance.data.selectedPerson"></person-education>
+
+            <!-- Professions -->
+            <person-professions mode="{{instance.data.selectedPerson.Constants.mode_show}}" data="instance.data.selectedPerson"></person-professions>
+
+            <!-- Work Histgory -->
+            <person-work-history mode="{{instance.data.selectedPerson.Constants.mode_show}}" data="instance.data.selectedPerson"></person-work-history>
+
+            <!-- Events -->
+            <person-events mode="{{instance.data.selectedPerson.Constants.mode_show}}" data="instance.data.selectedPerson"></person-events>
+
+
+            <!-- Galleries -->
+            <!-- TODO: it is not done! -->
+            <person-galleries mode="{{instance.data.selectedPerson.Constants.mode_show}}" data="instance.data.selectedPerson"></person-galleries>
+
+        </uib-accordion>
+
+    </div>
+
+</section>

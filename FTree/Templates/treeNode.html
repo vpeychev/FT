@@ -1,0 +1,27 @@
+﻿<uib-accordion close-others="true">
+    <div uib-accordion-group class="panel-default family-node" ng-init="node.isOpen=false" is-open="node.isOpen" ng-hide="node.isHidden" template-url="/templates/accordion-group-template.html" accordion-group="" ng-cloak="">
+        <!-- family-node  ng-if="node.Id != null"  -->
+        <uib-accordion-heading>
+            <div ng-if="instance.events.getPerson(node.Id).Person.Sex==='М'" ng-click="instance.events.showPerson({ 'family':family.Name, 'id':node.Id, 'spouseId':node.Spouseid, 'isOpen':node.isOpen, 'selectedPerson': instance.data.selectedPerson })">
+                <span ng-class="{'bold': instance.events.isCss(node.Id, family.Name, 'isSameFamily')}">{{instance.events.getPersonName(node.Id, family.Name).fullName}}</span>
+                <br />
+                <span ng-class="{'bold': instance.events.isCss(node.Spouseid, family.Name, 'isSameFamily')}">{{instance.events.getPersonName(node.Spouseid, family.Name).fullName}}</span>
+                <span ng-if="node.ChildrenCount"> (children #: {{node.ChildrenCount}})</span>
+                <i class="fa pull-right valign" ng-class="{'fa-plus':!node.isOpen, 'fa-minus':node.isOpen}"></i>
+            </div>
+            <div ng-if="(node.Id == -1)" ng-click="instance.events.showPerson({ 'family':family.Name, 'id':node.Id, 'spouseId':node.Spouseid, 'isOpen':node.isOpen, 'selectedPerson': instance.data.selectedPerson })">
+                <div ng-if="instance.events.getPerson(node.Spouseid).Person.Sex==='Ж'">
+                    <span>NA</span>
+                    <br />
+                    <span ng-class="{'bold': instance.events.isCss(node.Spouseid, family.Name, 'isSameFamily')}">{{instance.events.getPersonName(node.Spouseid, family.Name).fullName}}</span>
+                    <span ng-if="node.nodesCount"> (children #: {{node.ChildrenCount}})</span>
+                    <i class="fa pull-right valign" ng-class="{'fa-plus':!node.isOpen, 'fa-minus':node.isOpen}"></i>
+                </div>
+            </div>
+        </uib-accordion-heading>
+
+        <ul class="list-group" ng-if="node.Nodes">
+            <li class="list-group-item" ng-repeat="node in node.Nodes" ng-include src="'/templates/treeNode.html'"></li>
+        </ul>
+    </div>
+</uib-accordion>

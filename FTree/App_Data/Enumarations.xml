@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Enumerations>
+  <Enumeration Id="1" Name="EnumContactTypes">
+    <Items>
+      <Item Id="1" Name="Home Phone" />
+      <Item Id="2" Name="Mobile Phone (Personal)" />
+      <Item Id="3" Name="Mobile Phone (Business)" />
+      <Item Id="4" Name="E-mail (Personal)" />
+      <Item Id="5" Name="Email (Business)" />
+    </Items>
+  </Enumeration>
+  <Enumeration Id="2" Name="EnumDegreeType">
+    <Items>
+      <Item Id="1" Name="High school" />
+      <Item Id="2" Name="BSc" />
+      <Item Id="3" Name="MSc" />
+      <Item Id="4" Name="PhD" />
+    </Items>
+  </Enumeration>
+  <Enumeration Id="3" Name="EnumEventType">
+    <Items>
+      <Item Id="1" Name="Marriage" />
+      <Item Id="2" Name="Award (something)" />
+      <Item Id="3" Name="Army" />
+      <Item Id="4" Name="Living location" />
+    </Items>
+  </Enumeration>
+  <Enumeration Id="4" Name="EnumLocation">
+    <Items>
+      <Item Id="1" Name="Дяково">
+        <Address>Дяково</Address>
+      </Item>
+      <Item Id="2" Name="Блатино">
+        <Address>Блатино</Address>
+      </Item>
+      <Item Id="3" Name="Мламолово">
+        <Address>Мламолово</Address>
+      </Item>
+      <Item Id="4" Name="Кукая">
+        <Address>Кукая, Дяково</Address>
+      </Item>
+      <Item Id="5" Name="Яхиново">
+        <Address>Яхиново</Address>
+      </Item>
+      <Item Id="6" Name="Алино">
+        <Address>Алино</Address>
+      </Item>
+      <Item Id="7" Name="София">
+        <Address>София</Address>
+      </Item>
+      <Item Id="8" Name="Радомир">
+        <Address>Радомир</Address>
+      </Item>
+      <Item Id="9" Name="Червен брег">
+        <Address>Червен брег</Address>
+      </Item>
+      <Item Id="10" Name="Пловдив">
+        <Address>Пловдив</Address>
+      </Item>
+      <Item Id="11" Name="Дупница">
+        <Address>Дупница</Address>
+      </Item>
+      <Item Id="12" Name="Сев. България">
+        <Address>Сев. България</Address>
+      </Item>
+      <Item Id="13" Name="Русе">
+        <Address>Русе</Address>
+      </Item>
+      <Item Id="14" Name="Долистово">
+        <Address>Долистово</Address>
+      </Item>
+      <Item Id="15" Name="Бучалата">
+        <Address>Бучалата, Дяково</Address>
+      </Item>
+      <Item Id="16" Name="Пиперево">
+        <Address>Пиперево</Address>
+      </Item>
+      <Item Id="17" Name="Pernik">
+        <Address></Address>
+      </Item>
+      <Item Id="18" Name="NY">
+        <Address>New York, USA</Address>
+      </Item>
+      <Item Id="19" Name="Dobrich">
+        <Address></Address>
+      </Item>
+      <Item Id="20" Name="Samokov">
+        <Address>Samokov</Address>
+      </Item>
+      <Item Id="21" Name="Крайници">
+        <Address>Крайници</Address>
+      </Item>
+      <Item Id="22" Name="Костенец">
+        <Address>Костенец</Address>
+      </Item>
+    </Items>
+  </Enumeration>
+</Enumerations>

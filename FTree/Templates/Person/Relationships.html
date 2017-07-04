@@ -1,0 +1,130 @@
+﻿<div uib-accordion-group class="panel-default panel-accordion-group" heading="{{data.Constants.name_header_person_relationships}}" i is-open="true">
+    <!-- Parents -->
+    <div>
+
+        <!-- TODO:
+            1. when clicking on add/edit parent name we have to allow autosuggest
+            2. adjusted Add method for spouses and children
+            3. set isCurrent record for spouses
+            4. allow edit parents when person is adopted. Assumption is that parents could not be biological one, so set them as adopted and add biological one istead
+        -->
+
+        <h5 class="row">
+            <span class="col-xs-9">{{data.Constants.name_header_parents}}</span>
+            <span class="col-xs-3">{{data.Constants.name_header_family}}</span>
+        </h5>
+        <div ng-if="mode===data.Constants.mode_edit">
+            <input type="checkbox" name="isAdopted" ng-checked="data.Parents.IsAdopted" ng-click="data.Parents.IsAdopted=!data.Parents.IsAdopted" style="margin-left:15px;" />
+            <span style="margin-left:10px;">Is adopted</span>
+        </div>
+        <!-- Father -->
+        <div class="row">
+            <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                <label-value-input label="{{data.Constants.name_parent_father}}" value="data.Parents.Father.Name" col-size="7" mode="{{mode}}" is-disabled="{{data.Parents.Father.Name!==data.Constants.NA}}"></label-value-input>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                <span>{{data.Parents.Father.Family}}</span>
+            </div>
+        </div>
+        <!-- Mother -->
+        <div class="row">
+            <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                <label-value-input label="{{data.Constants.name_parent_mother}}" value="data.Parents.Mother.Name" col-size="7" mode="{{mode}}" is-disabled="{{data.Parents.Mother.Name!==data.Constants.NA}}"></label-value-input>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                <span>{{data.Parents.Mother.Family}}</span>
+            </div>
+        </div>
+        <!-- Adopted Father -->
+        <div class="row" ng-if="data.Parents.IsAdopted">
+            <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                <label-value-input label="{{data.Constants.name_parent_afather}}" value="data.Parents.AFather.Name" col-size="7" mode="{{mode}}" is-disabled="{{data.Parents.AFather.Name!==data.Constants.NA}}"></label-value-input>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                <span>{{data.Parents.AFather.Family}}</span>
+            </div>
+        </div>
+        <!-- Adopted Mother -->
+        <div class="row" ng-if="data.Parents.IsAdopted">
+            <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                <label-value-input label="{{data.Constants.name_parent_amother}}" value="data.Parents.AMother.Name" col-size="7" mode="{{mode}}" is-disabled="{{data.Parents.AMother.Name!==data.Constants.NA}}"></label-value-input>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                <span>{{data.Parents.AMother.Family}}</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Spouses -->
+    <div ng-if="data.Spouses.length > 0">
+        <h5 class="row">
+            <span class="col-xs-9">{{data.Constants.name_header_spouse}}</span>
+            <span class="col-xs-3">{{data.Constants.name_header_family}}</span>
+        </h5>
+        <div class="row" ng-repeat="sp in data.Spouses">
+            <div class="col-xs-9">
+                <!--<span ng-class="{'tmp-bold':sp.IsCurrent}">{{sp.Name}}</span>-->
+                <label-value-input label="{{$index}}" value="sp.Name" col-size="7" mode="{{mode}}" is-disabled="{{sp.Name!==data.Constants.NA}}"></label-value-input>
+            </div>
+            <div class="col-xs-3">
+                <span>{{sp.Family}}</span>
+            </div>
+        </div>
+        <div ng-if="mode===data.Constants.mode_edit">
+            <button class="btn btn-default" ng-click="data.Spouses=add({ obj: data.Spouses === undefined ? data : data.Spouses, objName: data.Spouses === undefined ? 'Spouse' : undefined, properties: ['Name', 'Date', 'IsCurrent'], values: ['', '', true] })">{{data.Constants.name_button_add}}</button>
+        </div>
+    </div>
+
+    <!-- Children -->
+    <div ng-if="data.Children.length > 0" class="relation-child">
+        <h5 class="row">
+            <span class="col-xs-9">{{data.Constants.name_header_children}} ({{data.Children.length}})</span>
+            <span class="col-xs-3">{{data.Constants.name_header_family}}</span>
+        </h5>
+        <div ng-repeat="c in data.Children" class="row">
+            <span class="col-xs-9">{{c.Name}}</span>
+            <span class="col-xs-3">{{c.Family}}</span>
+            <div style="margin-left:20px; border-bottom:1px solid lightgrey;">
+                <!-- Father -->
+                <div class="row">
+                    <div class="col-xs-9">
+                        <label-value-input label="{{data.Constants.name_parent_father}}" value="c.Parents.Father.Name" col-size="7" mode="{{mode}}" is-disabled="{{c.Parents.Father.Name!==data.Constants.NA}}"></label-value-input>
+                    </div>
+                    <div class="col-xs-3">
+                        <span>{{c.Parents.Father.Family}}</span>
+                    </div>
+                </div>
+                <!-- Mother -->
+                <div class="row">
+                    <div class="col-xs-9">
+                        <label-value-input label="{{data.Constants.name_parent_mother}}" value="c.Parents.Mother.Name" col-size="7" mode="{{mode}}" is-disabled="{{c.Parents.Mother.Name!==data.Constants.NA}}"></label-value-input>
+                    </div>
+                    <div class="col-xs-3">
+                        <span>{{c.Parents.Mother.Family}}</span>
+                    </div>
+                </div>
+                <!-- Adopted Father -->
+                <div class="row" ng-if="c.Parents.IsAdopted">
+                    <div class="col-xs-9">
+                        <label-value-input label="{{data.Constants.name_parent_afather}}" value="c.Parents.AFather.Name" col-size="7" mode="{{mode}}" is-disabled="{{c.Parents.AFather.Name!==data.Constants.NA}}></label-value-input>
+                    </div>
+                    <div class="col-xs-3">
+                        <span>{{c.Parents.AFather.Family}}</span>
+                    </div>
+                </div>
+                <!-- Adopted Mother -->
+                <div class="row" ng-if="c.Parents.IsAdopted">
+                    <div class="col-xs-9">
+                        <label-value-input label="{{data.Constants.name_parent_amother}}" value="c.Parents.AMother.Name" col-size="7" mode="{{mode}}" is-disabled="{{c.Parents.AMother.Name!==data.Constants.NA}}"></label-value-input>
+                    </div>
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <span>{{data.Parents.AMother.Family}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div ng-if="mode===data.Constants.mode_edit">
+        <button class="btn btn-default" ng-click="data.Children=add({ obj: data.Children === undefined ? data : data.Children, objName: data.Children === undefined ? data.Constants.name_header_Children : undefined, properties: ['Name', 'Father', 'Mother', 'AdoptedFather', 'AdoptedMother'], values: ['', '', '', '', ''] })">{{data.Constants.name_button_add}}</button>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+﻿<div uib-accordion-group class="panel-default panel-accordion-group" heading="{{data.Constants.name_header_person_professions}}" is-open="true" ng-if="data.Professions.length > 0">
+    <div class="row" ng-class="'color1'">
+        <sapn class="col-xs-10">{{data.Constants.name_name}}</sapn>
+        <sapn class="col-xs-2">Is Current</sapn>
+    </div>
+    <div ng-repeat="p in data.Professions" ng-class-odd="'color1'">
+        <!-- Profession -->
+        <div class="row">
+            <span class="col-xs-10">{{p.Name}}</span>
+            <span class="col-xs-2">{{p.IsCurrent}}</span>
+        </div>
+        <!-- Comments -->
+        <comments comments="p.Comments"></comments>
+    </div>
+</div>
+

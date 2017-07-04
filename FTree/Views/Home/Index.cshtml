@@ -1,0 +1,15 @@
+﻿@Scripts.Render("~/bundles/home")
+
+<!-- Home Page -->
+<div ng-controller="HomeController as instance">
+
+    <div class="container">
+        <!-- Left (family navigation) -->
+        @Html.Partial("_FamilyHierarchy")
+
+        <!-- Right (person information) -->
+        @Html.Partial("_PersonInfo")
+    </div>
+
+</div>
+

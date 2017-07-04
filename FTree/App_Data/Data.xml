@@ -1,0 +1,4931 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Persons>
+  <Person Id="1" Name="Атанас Фалин">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Атанас Фалин">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалин</Last>
+        <First>Атанас</First>
+        <Middle></Middle>
+        <Maiden></Maiden>
+      </Name>
+      <Aliases>
+        <Alias Id="1" Name="Ертенико" />
+      </Aliases>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Цена Фалина">
+        <PersonId>3</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Дяково">
+        <LocationId>1</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="2" Name="Георги Фалин">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Георги Фалин">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалин</Last>
+        <First>Георги</First>
+        <Middle></Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Дяково">
+        <LocationId>1</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="5" Name="Панчо Фалин">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Панчо Фалин">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалин</Last>
+        <First>Панчо</First>
+        <Middle>Атанасов</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>3</MotherId>
+      <FatherId>1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Яна Фалина">
+        <PersonId>6</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="7" Name="Сотир Фалин">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Сотир Фалин">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалин</Last>
+        <First>Сотир</First>
+        <Middle>Атанасов</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>3</MotherId>
+      <FatherId>1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Тинка Фалина">
+        <PersonId>28</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="8" Name="Заре Фалин">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Заре Фалин">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалин</Last>
+        <First>Заре</First>
+        <Middle>Атанасов</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>3</MotherId>
+      <FatherId>1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Тасика Фалин">
+        <PersonId>62</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="9" Name="Борис Фалин">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Борис Фалин">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалин</Last>
+        <First>Борис</First>
+        <Middle>Атанасов</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>3</MotherId>
+      <FatherId>1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Тасика Фалина">
+        <PersonId>62</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="10" Name="Ана ">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Ана ">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last></Last>
+        <First>Ана</First>
+        <Middle>Атанасова</Middle>
+        <Maiden>Фалина</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>3</MotherId>
+      <FatherId>1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="11" Name="Слава ">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Слава ">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last></Last>
+        <First>Слава</First>
+        <Middle>Панчова</Middle>
+        <Maiden>Фалина</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>6</MotherId>
+      <FatherId>5</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Мартин ">
+        <PersonId>25</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="12" Name="Гина Клинкова">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Гина Клинкова">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Клинкова</Last>
+        <First>Гина</First>
+        <Middle>Панчова</Middle>
+        <Maiden>Фалина</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>6</MotherId>
+      <FatherId>5</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="?????????? Клинков">
+        <PersonId>27</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="13" Name="Славе Фалин">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Славе Фалин">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалин</Last>
+        <First>Славе</First>
+        <Middle>Панчов</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>6</MotherId>
+      <FatherId>5</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Цона Фалина">
+        <PersonId>16</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="14" Name="Златко Фалин">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Златко Фалин">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалин</Last>
+        <First>Златко</First>
+        <Middle>Панчов</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>6</MotherId>
+      <FatherId>5</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Калина Фалина">
+        <PersonId>20</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="15" Name="Любен Фалин">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Любен Фалин">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалин</Last>
+        <First>Любен</First>
+        <Middle>Панчов</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>6</MotherId>
+      <FatherId>5</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Вера Фалина">
+        <PersonId>22</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="17" Name="Йорданка ">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Йорданка ">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last></Last>
+        <First>Йорданка</First>
+        <Middle>Славева</Middle>
+        <Maiden>Фалина</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>16</MotherId>
+      <FatherId>13</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="18" Name="Тренка ">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Тренка ">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last></Last>
+        <First>Тренка</First>
+        <Middle>Славева</Middle>
+        <Maiden>Фалина</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>16</MotherId>
+      <FatherId>13</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="19" Name="Райна ">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Райна ">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last></Last>
+        <First>Райна</First>
+        <Middle>Славева</Middle>
+        <Maiden>Фалина</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>16</MotherId>
+      <FatherId>13</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="21" Name="Кирил Фалин">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Кирил Фалин">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалин</Last>
+        <First>Кирил</First>
+        <Middle>Златков</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>20</MotherId>
+      <FatherId>14</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Яхиново">
+        <LocationId>5</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="23" Name="Снежана ">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Снежана ">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last></Last>
+        <First>Снежана</First>
+        <Middle>Любенова</Middle>
+        <Maiden>Фалина</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>22</MotherId>
+      <FatherId>15</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="24" Name="Юлия ">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Юлия ">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last></Last>
+        <First>Юлия</First>
+        <Middle>Любенова</Middle>
+        <Maiden>Фалина</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>22</MotherId>
+      <FatherId>15</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="29" Name="Видин Фалин">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Видин Фалин">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалин</Last>
+        <First>Видин</First>
+        <Middle>Сотиров</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>28</MotherId>
+      <FatherId>7</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Йорданка Фалина">
+        <PersonId>35</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Дяково">
+        <LocationId>1</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="30" Name="Иван Фалин">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Иван Фалин">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалин</Last>
+        <First>Иван</First>
+        <Middle>Сотиров</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>28</MotherId>
+      <FatherId>7</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Мария Фалина">
+        <PersonId>38</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="31" Name="Симеон Фалин">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Симеон Фалин">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалин</Last>
+        <First>Симеон</First>
+        <Middle>Сотиров</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>28</MotherId>
+      <FatherId>7</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="32" Name="Руска Данаилова">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Руска Данаилова">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Данаилова</Last>
+        <First>Руска</First>
+        <Middle>Сотирова</Middle>
+        <Maiden>Фалина</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>28</MotherId>
+      <FatherId>7</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Райчо Данаилов">
+        <PersonId>54</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="33" Name="Звезда ?">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Звезда ?">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>?</Last>
+        <First>Звезда</First>
+        <Middle>Сотирова</Middle>
+        <Maiden>Фалина</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>28</MotherId>
+      <FatherId>7</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Стоян ?">
+        <PersonId>51</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="34" Name="Елена Терзийска">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Елена Терзийска">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Терзийска</Last>
+        <First>Елена</First>
+        <Middle>Сотирова</Middle>
+        <Maiden>Фалина</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>28</MotherId>
+      <FatherId>7</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Рангел Терзийски">
+        <PersonId>59</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="36" Name="Костадин Фалин">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Костадин Фалин">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалин</Last>
+        <First>Костадин</First>
+        <Middle>Видинов</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>35</MotherId>
+      <FatherId>29</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Дяково">
+        <LocationId>1</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="37" Name="Светла Иванова">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Светла Иванова">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Иванова</Last>
+        <First>Светла</First>
+        <Middle>Видинова</Middle>
+        <Maiden>Фалина</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>35</MotherId>
+      <FatherId>29</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Дяково">
+        <LocationId>1</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="39" Name="Ангелина ">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Ангелина ">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last></Last>
+        <First>Ангелина</First>
+        <Middle>Иванова</Middle>
+        <Maiden>Фалина</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>38</MotherId>
+      <FatherId>30</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions>
+      <Profession Id="1" Name="Учител">
+        <IsCurrent>true</IsCurrent>
+        <Comments />
+      </Profession>
+    </Professions>
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="40" Name="Михал Фалин">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Михал Фалин">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалин</Last>
+        <First>Михал</First>
+        <Middle>Иванов</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>38</MotherId>
+      <FatherId>30</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="41" Name="Димчо Фалин">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Димчо Фалин">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалин</Last>
+        <First>Димчо</First>
+        <Middle>Симеонов</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>31</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Руска Фалина">
+        <PersonId>46</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Пловдив">
+        <LocationId>10</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions>
+      <Profession Id="1" Name="Агроном">
+        <IsCurrent>true</IsCurrent>
+        <Comments />
+      </Profession>
+    </Professions>
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="42" Name="Анка ">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Анка ">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last></Last>
+        <First>Анка</First>
+        <Middle>Симеонова</Middle>
+        <Maiden>Фалина</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>31</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Радомир">
+        <LocationId>8</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="43" Name="Верка ">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Верка ">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last></Last>
+        <First>Верка</First>
+        <Middle>Симеонова</Middle>
+        <Maiden>Фалина</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>31</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Спасе ?">
+        <PersonId>48</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Червен брег">
+        <LocationId>9</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="44" Name="Тренка Боснешка">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Тренка Боснешка">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Боснешка</Last>
+        <First>Тренка</First>
+        <Middle>Симеонова</Middle>
+        <Maiden>Фалина</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>31</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Михал Боснешки">
+        <PersonId>49</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Радомир">
+        <LocationId>8</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="45" Name="Стефка Манавска">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Стефка Манавска">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Манавска</Last>
+        <First>Стефка</First>
+        <Middle>Симеонова</Middle>
+        <Maiden>Фалина</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>31</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Васил Манавски">
+        <PersonId>50</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Яхиново">
+        <LocationId>5</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="47" Name="Златко Фалин">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Златко Фалин">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалин</Last>
+        <First>Златко</First>
+        <Middle>Димчов</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>46</AdoptedMotherId>
+      <AdoptedFatherId>41</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Дупница">
+        <LocationId>11</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="63" Name="Цвета Искренова">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>widowed</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Цвета Искренова">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Искренова</Last>
+        <First>Цвета</First>
+        <Middle>Зарева</Middle>
+        <Maiden>Фалина</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>62</MotherId>
+      <FatherId>8</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date>1920122_</Date>
+        <LocationId>4</LocationId>
+      </Born>
+      <Death>
+        <Date>19970415</Date>
+        <LocationId>16</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Иван Искренов">
+        <PersonId>66</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Бучалата">
+        <LocationId>15</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+      <Location Id="2" Name="Пиперево">
+        <LocationId>16</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="64" Name="Методи Фалин">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Методи Фалин">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалин</Last>
+        <First>Методи</First>
+        <Middle>Зарев</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>62</MotherId>
+      <FatherId>8</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Ели ">
+        <PersonId>100</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="65" Name="Драгомир Фалин">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Фалин</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Драгомир Фалин">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалин</Last>
+        <First>Драгомир</First>
+        <Middle>Зарев</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>62</MotherId>
+      <FatherId>8</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="София">
+        <LocationId>7</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="3" Name="Цена Фалина">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Шабанов</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Цена Фалина">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалина</Last>
+        <First>Цена</First>
+        <Middle></Middle>
+        <Maiden>Шабанова</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Атанас Фалин">
+        <PersonId>1</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Дяково">
+        <LocationId>1</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="4" Name="Коче Шабанов">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Шабанов</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Коче Шабанов">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Шабанов</Last>
+        <First>Коче</First>
+        <Middle></Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="6" Name="Яна Фалина">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>F_Ж_6</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Яна Фалина">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалина</Last>
+        <First>Яна</First>
+        <Middle></Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>2</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Панчо Фалин">
+        <PersonId>5</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Блатино">
+        <LocationId>2</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="16" Name="Цона Фалина">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>F_Ж_16</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Цона Фалина">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалина</Last>
+        <First>Цона</First>
+        <Middle></Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>3</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Славе Фалин">
+        <PersonId>13</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="20" Name="Калина Фалина">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>F_Ж_20</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Калина Фалина">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалина</Last>
+        <First>Калина</First>
+        <Middle></Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>4</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Златко Фалин">
+        <PersonId>14</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="22" Name="Вера Фалина">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>F_Ж_22</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Вера Фалина">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалина</Last>
+        <First>Вера</First>
+        <Middle></Middle>
+        <Maiden>?</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Любен Фалин">
+        <PersonId>15</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="25" Name="Мартин ">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>F_М_25</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Мартин ">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last></Last>
+        <First>Мартин</First>
+        <Middle></Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>6</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Слава ">
+        <PersonId>11</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="26" Name="Верка ">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>F_М_25</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Верка ">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last></Last>
+        <First>Верка</First>
+        <Middle></Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>11</MotherId>
+      <FatherId>25</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="София">
+        <LocationId>7</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions>
+      <Profession Id="1" Name="Народна певица">
+        <IsCurrent>true</IsCurrent>
+        <Comments />
+      </Profession>
+    </Professions>
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="27" Name="?????????? Клинков">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Клинков</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="?????????? Клинков">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Клинков</Last>
+        <First>??????????</First>
+        <Middle></Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Гина Клинкова">
+        <PersonId>12</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="28" Name="Тинка Фалина">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Данаилова (от Вуците)</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Тинка Фалина">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалина</Last>
+        <First>Тинка</First>
+        <Middle></Middle>
+        <Maiden>Данаилова (от Вуците)</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Сотир Фалин">
+        <PersonId>7</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="35" Name="Йорданка Фалина">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Мацов</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Йорданка Фалина">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалина</Last>
+        <First>Йорданка</First>
+        <Middle></Middle>
+        <Maiden>Мацова</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Видин Фалин">
+        <PersonId>29</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="38" Name="Мария Фалина">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Кьосев</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Мария Фалина">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалина</Last>
+        <First>Мария</First>
+        <Middle></Middle>
+        <Maiden>Кьосева</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Иван Фалин">
+        <PersonId>30</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Дяково">
+        <LocationId>1</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="46" Name="Руска Фалина">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Данаилов</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Руска Фалина">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалина</Last>
+        <First>Руска</First>
+        <Middle></Middle>
+        <Maiden>Данаилова</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Димчо Фалин">
+        <PersonId>41</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Пловдив">
+        <LocationId>10</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="54" Name="Райчо Данаилов">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Данаилов</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Райчо Данаилов">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Данаилов</Last>
+        <First>Райчо</First>
+        <Middle></Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Руска Данаилова">
+        <PersonId>32</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Дяково">
+        <LocationId>1</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="55" Name="Йордан Данаилов">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Данаилов</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Йордан Данаилов">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Данаилов</Last>
+        <First>Йордан</First>
+        <Middle>Райчов</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>32</MotherId>
+      <FatherId>54</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="56" Name="Добренка ">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Данаилов</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Добренка ">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last></Last>
+        <First>Добренка</First>
+        <Middle>Райчова</Middle>
+        <Maiden>Данаилова</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>32</MotherId>
+      <FatherId>54</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="57" Name="Теменужка ">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Данаилов</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Теменужка ">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last></Last>
+        <First>Теменужка</First>
+        <Middle>Райчова</Middle>
+        <Maiden>Данаилова</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>32</MotherId>
+      <FatherId>54</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="58" Name="Христинка ">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Данаилов</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Христинка ">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last></Last>
+        <First>Христинка</First>
+        <Middle>Райчова</Middle>
+        <Maiden>Данаилова</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>32</MotherId>
+      <FatherId>54</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="101" Name="Венетка Фалина">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Данаилов</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Венетка Фалина">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалина</Last>
+        <First>Венетка</First>
+        <Middle>Данаилова</Middle>
+        <Maiden>Данаилова</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Методи Фалин">
+        <PersonId>64</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="48" Name="Спасе ?">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>F_М_48</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Спасе ?">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>?</Last>
+        <First>Спасе</First>
+        <Middle></Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>9</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Верка ">
+        <PersonId>43</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="49" Name="Михал Боснешки">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Боснешки</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Михал Боснешки">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Боснешки</Last>
+        <First>Михал</First>
+        <Middle></Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Тренка Боснешка">
+        <PersonId>44</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Радомир">
+        <LocationId>8</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="50" Name="Васил Манавски">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Манавски</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Васил Манавски">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Манавски</Last>
+        <First>Васил</First>
+        <Middle></Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>5</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Стефка Манавска">
+        <PersonId>45</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Яхиново">
+        <LocationId>5</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="51" Name="Стоян ?">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>F_М_51</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Стоян ?">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>?</Last>
+        <First>Стоян</First>
+        <Middle></Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Звезда ?">
+        <PersonId>33</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Сев. България">
+        <LocationId>12</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="52" Name="Стоянка ">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>F_М_51</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Стоянка ">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last></Last>
+        <First>Стоянка</First>
+        <Middle></Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>33</MotherId>
+      <FatherId>51</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="53" Name="Кръстьо ">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>F_М_51</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Кръстьо ">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last></Last>
+        <First>Кръстьо</First>
+        <Middle></Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>33</MotherId>
+      <FatherId>51</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="59" Name="Рангел Терзийски">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Терзийски</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Рангел Терзийски">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Терзийски</Last>
+        <First>Рангел</First>
+        <Middle></Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Елена Терзийска">
+        <PersonId>34</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="60" Name="Илия Терзийски">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Терзийски</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Илия Терзийски">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Терзийски</Last>
+        <First>Илия</First>
+        <Middle>Рангелов</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>34</MotherId>
+      <FatherId>59</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Дяково">
+        <LocationId>1</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+      <Location Id="2" Name="София">
+        <LocationId>7</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="61" Name="Иван Терзийски">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Терзийски</Family>
+    <MaritalStatus>divorced</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Иван Терзийски">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Терзийски</Last>
+        <First>Иван</First>
+        <Middle>Рангелов</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>34</MotherId>
+      <FatherId>59</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Русе">
+        <LocationId>13</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="62" Name="Тасика Фалина">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Мемедов</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Тасика Фалина">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Фалина</Last>
+        <First>Тасика</First>
+        <Middle>Йонева</Middle>
+        <Maiden>Мемедова</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>14</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Заре Фалин">
+        <PersonId>8</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Кукая">
+        <LocationId>4</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="66" Name="Иван Искренов">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Искренов</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Иван Искренов">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Искренов</Last>
+        <First>Иван</First>
+        <Middle>Спасов</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date>192101__</Date>
+        <LocationId>15</LocationId>
+      </Born>
+      <Death>
+        <Date>19821218</Date>
+        <LocationId>16</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Цвета Искренова">
+        <PersonId>63</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Бучалата">
+        <LocationId>15</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+      <Location Id="2" Name="Пиперево">
+        <LocationId>16</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="67" Name="Трендафила Пейчева">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Искренов</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Трендафила Пейчева">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Пейчева</Last>
+        <First>Трендафила</First>
+        <Middle>Иванова</Middle>
+        <Maiden>Искренова</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>63</MotherId>
+      <FatherId>66</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date>19391008</Date>
+        <LocationId>15</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Георги Пейчев">
+        <PersonId>70</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Дяково">
+        <LocationId>1</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+      <Location Id="2" Name="Дупница">
+        <LocationId>11</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+      <Location Id="3" Name="София">
+        <LocationId>7</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="68" Name="Невена Китова">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Искренов</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Невена Китова">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Китова</Last>
+        <First>Невена</First>
+        <Middle>Иванова</Middle>
+        <Maiden>Искренова</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>63</MotherId>
+      <FatherId>66</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>15</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>16</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Павел Китов">
+        <PersonId>81</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Кукая">
+        <LocationId>4</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+      <Location Id="2" Name="Дупница">
+        <LocationId>11</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="69" Name="Гюлка Славкова">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Искренов</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Гюлка Славкова">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Славкова</Last>
+        <First>Гюлка</First>
+        <Middle>Иванова</Middle>
+        <Maiden>Искренова</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>63</MotherId>
+      <FatherId>66</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>15</LocationId>
+      </Born>
+      <Death>
+        <Date>1974____</Date>
+        <LocationId>11</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Григор Славков">
+        <PersonId>92</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Pernik">
+        <LocationId>17</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+      <Location Id="2" Name="Дупница">
+        <LocationId>11</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="70" Name="Георги Пейчев">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Пейчев</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Георги Пейчев">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Пейчев</Last>
+        <First>Георги</First>
+        <Middle>Йорданов</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date>19320402</Date>
+        <LocationId>1</LocationId>
+      </Born>
+      <Death>
+        <Date>19921030</Date>
+        <LocationId>16</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Трендафила Пейчева">
+        <PersonId>67</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="71" Name="Лозанка Пейчева-Димова">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Пейчев</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Лозанка Пейчева">
+        <Date>19610414</Date>
+        <IsCurrent>false</IsCurrent>
+        <Last>Пейчева</Last>
+        <First>Лозанка</First>
+        <Middle>Георгиева</Middle>
+        <Maiden>Пейчева</Maiden>
+      </Name>
+      <Name Id="2" Name="Лозанка Пейчева-Димова">
+        <Date>199_____</Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Пейчева-Димова</Last>
+        <First>Лозанка</First>
+        <Middle>Георгиева</Middle>
+        <Maiden>Пейчева</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>67</MotherId>
+      <FatherId>70</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date>19610414</Date>
+        <LocationId>1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Добрин Александров">
+        <PersonId>73</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+      <Spouse Id="2" Name="Венцислав Димов">
+        <PersonId>75</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations>
+      <Location Id="1" Name="Дупница">
+        <LocationId>11</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+      <Location Id="2" Name="София">
+        <LocationId>7</LocationId>
+        <DateFrom></DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="72" Name="Ваньо Пейчев">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Пейчев</Family>
+    <MaritalStatus>divorced</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Ваньо Пейчев">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Пейчев</Last>
+        <First>Ваньо</First>
+        <Middle>Георгиев</Middle>
+        <Maiden></Maiden>
+      </Name>
+      <Aliases>
+        <Alias Id="1" Name="Test 1" />
+      </Aliases>
+    </Names>
+    <Parents>
+      <MotherId>67</MotherId>
+      <FatherId>70</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date>19630626</Date>
+        <LocationId>1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Светлана Димитрова">
+        <PersonId>78</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts>
+      <Contact Id="1" Name="1">
+        <Text>123-9875-54564</Text>
+      </Contact>
+      <Contact Id="1" Name="2">
+        <Text>123-9875-54564</Text>
+      </Contact>
+    </Contacts>
+    <Comments>
+      <Comment Id="1" Name="Test comments">
+        <Text>Test comment</Text>
+      </Comment>
+    </Comments>
+    <Locations>
+      <Location Id="1" Name="Дупница">
+        <LocationId>11</LocationId>
+        <DateFrom>1968</DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+      <Location Id="2" Name="София">
+        <LocationId>7</LocationId>
+        <DateFrom>2006</DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+      <Location Id="3" Name="NY">
+        <LocationId>18</LocationId>
+        <DateFrom>2007</DateFrom>
+        <IsOwn>true</IsOwn>
+      </Location>
+    </Locations>
+    <Education>
+      <School Id="1" Name="Hr. Botev">
+        <DateStart>1978</DateStart>
+        <DateEnd>1981</DateEnd>
+        <DegreeId>1</DegreeId>
+        <LocationId>11</LocationId>
+        <Comments>
+          <Comment Id="1" Name="Math oriented">
+            <Text>Extensive math education</Text>
+          </Comment>
+        </Comments>
+      </School>
+      <School Id="2" Name="FMM">
+        <DateStart>1983</DateStart>
+        <DateEnd>1989</DateEnd>
+        <DegreeId>3</DegreeId>
+        <LocationId>7</LocationId>
+        <Comments>
+          <Comment Id="1" Name="Specialty">
+            <Text>Get computer networks specializion</Text>
+          </Comment>
+          <Comment Id="2" Name="Degree">
+            <Text>Graduate with degree in math</Text>
+          </Comment>
+        </Comments>
+      </School>
+    </Education>
+    <Professions>
+      <Profession Id="1" Name="SE">
+        <IsCurrent>true</IsCurrent>
+        <Comments>
+          <Comment Id="1" Name="Lead dev">
+            <Text>Has worked as lead dev for a while</Text>
+          </Comment>
+        </Comments>
+      </Profession>
+    </Professions>
+    <WorkHistory>
+      <Item Id="1" Name="LiquidHub">
+        <DateStart>20150914</DateStart>
+        <DateEnd></DateEnd>
+        <TotalYears></TotalYears>
+        <Occupation>Solution Architect</Occupation>
+        <Comments>
+          <Comment Id="1" Name="Web oriented">
+            <Text>Working on web protals</Text>
+          </Comment>
+        </Comments>
+      </Item>
+    </WorkHistory>
+    <Events>
+      <Event Id="1" Name="BD party">
+        <Date>20170626</Date>
+        <LocationId>18</LocationId>
+        <Description>BD party</Description>
+        <Attendees>
+          <PersonId>79</PersonId>
+          <PersonId>80</PersonId>
+        </Attendees>
+        <GalleryId></GalleryId>
+        <Comments>
+          <Comment Id="1" Name="Jazz club">
+            <Text>Going to celebrate in an jazz club</Text>
+          </Comment>
+          <Comment Id="2" Name="Performer">
+            <Text>Watching Anrdes Laprida performance</Text>
+          </Comment>
+        </Comments>
+      </Event>
+      <Event Id="2" Name="BBQ">
+        <Date>20170701</Date>
+        <LocationId>18</LocationId>
+        <Description>BBQ Wawayanda</Description>
+        <Attendees>
+          <PersonId>79</PersonId>
+          <PersonId>80</PersonId>
+        </Attendees>
+        <GalleryId>72_1</GalleryId>
+        <Comments>
+          <Comment Id="1" Name="Park">
+            <Text>Have a BBQ in the park</Text>
+          </Comment>
+        </Comments>
+      </Event>
+    </Events>    
+    <Galleries />
+  </Person>
+  <Person Id="79" Name="Георги Пейчев">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Пейчев</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Георги Пейчев">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Пейчев</Last>
+        <First>Георги</First>
+        <Middle>Ваньов</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>78</MotherId>
+      <FatherId>72</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date>19890824</Date>
+        <LocationId>7</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="80" Name="Стефан Пейчев">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Пейчев</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Стефан Пейчев">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Пейчев</Last>
+        <First>Стефан</First>
+        <Middle>Ваньов</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>78</MotherId>
+      <FatherId>72</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date>19970114</Date>
+        <LocationId>11</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="73" Name="Добрин Александров">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Александров</Family>
+    <MaritalStatus>divorced</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Добрин Александров">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Александров</Last>
+        <First>Добрин</First>
+        <Middle>Асенов</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>7</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Лозанка Пейчева-Димова">
+        <PersonId>71</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="74" Name="Асен Александров">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Александров</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Асен Александров">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Александров</Last>
+        <First>Асен</First>
+        <Middle>Добринов</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>71</MotherId>
+      <FatherId>73</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date>19850704</Date>
+        <LocationId>1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Красимира Георгиева-Александрова">
+        <PersonId>77</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="75" Name="Венцислав Димов">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Димов</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Венцислав Димов">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Димов</Last>
+        <First>Венцислав</First>
+        <Middle>Димов</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date>19630425</Date>
+        <LocationId>19</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Лозанка Пейчева-Димова">
+        <PersonId>71</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="76" Name="Петър Димов">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Димов</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Петър Димов">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Димов</Last>
+        <First>Петър</First>
+        <Middle>Венциславов</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>71</MotherId>
+      <FatherId>75</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date>19970630</Date>
+        <LocationId>11</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="77" Name="Красимира Георгиева-Александрова">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>F_Ж_77</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Красимира Георгиева-Александрова">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Георгиева-Александрова</Last>
+        <First>Красимира</First>
+        <Middle>Георгиева</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Асен Александров">
+        <PersonId>74</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="78" Name="Светлана Димитрова">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Димитров</Family>
+    <MaritalStatus>divorced</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Светлана Димитрова">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Димитрова</Last>
+        <First>Светлана</First>
+        <Middle>Стефанова</Middle>
+        <Maiden>Димитрова</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date>19641109</Date>
+        <LocationId>20</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Ваньо Пейчев">
+        <PersonId>72</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="81" Name="Павел Китов">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Китов</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Павел Китов">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Китов</Last>
+        <First>Павел</First>
+        <Middle>Иванов</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>4</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Невена Китова">
+        <PersonId>68</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="82" Name="Иван Китов">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Китов</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Иван Китов">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Китов</Last>
+        <First>Иван</First>
+        <Middle>Павлов</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>68</MotherId>
+      <FatherId>81</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date>1968____</Date>
+        <LocationId>11</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Ваня Китова">
+        <PersonId>84</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="83" Name="Ефтим Китов">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Китов</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Ефтим Китов">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Китов</Last>
+        <First>Ефтим</First>
+        <Middle>Павлов</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>68</MotherId>
+      <FatherId>81</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date>1964____</Date>
+        <LocationId>11</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Наташа ">
+        <PersonId>87</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+      <Spouse Id="2" Name="Веселка ">
+        <PersonId>90</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="85" Name="Станислав Китов">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Китов</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Станислав Китов">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Китов</Last>
+        <First>Станислав</First>
+        <Middle>Иванов</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>84</MotherId>
+      <FatherId>82</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="86" Name="Пламен Китов">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Китов</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Пламен Китов">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Китов</Last>
+        <First>Пламен</First>
+        <Middle>Иванов</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>84</MotherId>
+      <FatherId>82</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="88" Name="Даниела ">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Китов</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Даниела ">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last></Last>
+        <First>Даниела</First>
+        <Middle>Ефтимова</Middle>
+        <Maiden>Павлова</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>87</MotherId>
+      <FatherId>83</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="89" Name="Павел Павлов">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Китов</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Павел Павлов">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Павлов</Last>
+        <First>Павел</First>
+        <Middle>Ефтимов</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>87</MotherId>
+      <FatherId>83</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="91" Name="Симона ">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Китов</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Симона ">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last></Last>
+        <First>Симона</First>
+        <Middle>Ефтимова</Middle>
+        <Maiden>Китова</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>90</MotherId>
+      <FatherId>83</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="84" Name="Ваня Китова">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>F_Ж_84</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Ваня Китова">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Китова</Last>
+        <First>Ваня</First>
+        <Middle></Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Иван Китов">
+        <PersonId>82</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="87" Name="Наташа ">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>F_Ж_87</Family>
+    <MaritalStatus>divorced</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Наташа ">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last></Last>
+        <First>Наташа</First>
+        <Middle></Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>5</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Ефтим Китов">
+        <PersonId>83</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="90" Name="Веселка ">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Колев</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Веселка ">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last></Last>
+        <First>Веселка</First>
+        <Middle></Middle>
+        <Maiden>Колева</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Ефтим Китов">
+        <PersonId>83</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="92" Name="Григор Славков">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Славков</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Григор Славков">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Славков</Last>
+        <First>Григор</First>
+        <Middle>Георгиев</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>21</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>21</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Гюлка Славкова">
+        <PersonId>69</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="93" Name="Валентин Славков">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Славков</Family>
+    <MaritalStatus>divorced</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Валентин Славков">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Славков</Last>
+        <First>Валентин</First>
+        <Middle>Григоров</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>69</MotherId>
+      <FatherId>92</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date>1963____</Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Райна Славкова">
+        <PersonId>95</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="94" Name="Златко Славков">
+    <Sex>М</Sex>
+    <Age>-1</Age>
+    <Family>Славков</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Златко Славков">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Славков</Last>
+        <First>Златко</First>
+        <Middle>Григоров</Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>69</MotherId>
+      <FatherId>92</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date>19690625</Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Ани Славкова">
+        <PersonId>98</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="96" Name="Галя ">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Славков</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Галя ">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last></Last>
+        <First>Галя</First>
+        <Middle>Валентинова</Middle>
+        <Maiden>Славкова</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>95</MotherId>
+      <FatherId>93</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="97" Name="Евелина ">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Славков</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Евелина ">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last></Last>
+        <First>Евелина</First>
+        <Middle>Валентинова</Middle>
+        <Maiden>Славкова</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>95</MotherId>
+      <FatherId>93</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>7</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="99" Name="Еми ">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Славков</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Еми ">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last></Last>
+        <First>Еми</First>
+        <Middle>Златкова</Middle>
+        <Maiden>Славкова</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>98</MotherId>
+      <FatherId>94</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="100" Name="Ели ">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Славков</Family>
+    <MaritalStatus>NA</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Ели ">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last></Last>
+        <First>Ели</First>
+        <Middle>Златкова</Middle>
+        <Maiden>Славкова</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>98</MotherId>
+      <FatherId>94</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses />
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="95" Name="Райна Славкова">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>Кърков</Family>
+    <MaritalStatus>divorced</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Райна Славкова">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Славкова</Last>
+        <First>Райна</First>
+        <Middle>Евлогиева</Middle>
+        <Maiden>Къркова</Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date>1963____</Date>
+        <LocationId>-1</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Валентин Славков">
+        <PersonId>93</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+  <Person Id="98" Name="Ани Славкова">
+    <Sex>Ж</Sex>
+    <Age>-1</Age>
+    <Family>F_Ж_98</Family>
+    <MaritalStatus>married</MaritalStatus>
+    <Image>0</Image>
+    <Names>
+      <Name Id="1" Name="Ани Славкова">
+        <Date></Date>
+        <IsCurrent>true</IsCurrent>
+        <Last>Славкова</Last>
+        <First>Ани</First>
+        <Middle></Middle>
+        <Maiden></Maiden>
+      </Name>
+    </Names>
+    <Parents>
+      <MotherId>-1</MotherId>
+      <FatherId>-1</FatherId>
+      <AdoptedMotherId>-1</AdoptedMotherId>
+      <AdoptedFatherId>-1</AdoptedFatherId>
+    </Parents>
+    <SpecialDates>
+      <Born>
+        <Date></Date>
+        <LocationId>22</LocationId>
+      </Born>
+      <Death>
+        <Date></Date>
+        <LocationId>-1</LocationId>
+      </Death>
+    </SpecialDates>
+    <Spouses>
+      <Spouse Id="1" Name="Златко Славков">
+        <PersonId>94</PersonId>
+        <IsCurrent></IsCurrent>
+      </Spouse>
+    </Spouses>
+    <Contacts />
+    <Comments />
+    <Locations />
+    <Education />
+    <Professions />
+    <WorkHistory />
+    <Events />
+    <Galleries />
+  </Person>
+</Persons>

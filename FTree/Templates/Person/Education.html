@@ -1,0 +1,29 @@
+﻿<div uib-accordion-group class="panel-default panel-accordion-group" heading="{{data.Constants.name_header_person_eduction}}" is-open="true" ng-if="data.Education.length > 0">
+
+    <!-- TODO: udpate to support Edit mode -->
+
+    <div class="row" ng-class="'color1'">
+        <sapn class="col-xs-6">Name</sapn>
+        <sapn class="col-xs-2">From</sapn>
+        <sapn class="col-xs-2">To</sapn>
+        <sapn class="col-xs-2">Degree</sapn>
+    </div>
+    <div ng-repeat="edu in data.Education" ng-class-odd="'color1'">
+        <!-- School -->
+        <div class="row">
+            <sapn class="col-xs-6">{{edu.Name}}</sapn>
+            <sapn class="col-xs-2">{{edu.DateStart}}</sapn>
+            <sapn class="col-xs-2">{{edu.DateEnd}}</sapn>
+            <sapn class="col-xs-2">{{edu.Degree}}</sapn>
+        </div>
+        <!-- Address -->
+        <div class="row">
+            <span class="col-xs-1"></span>
+            <span class="col-xs-11">{{edu.Address}}</span>
+        </div>
+
+        <!-- Comments -->
+        <comments comments="edu.Comments"></comments>
+
+    </div>
+</div>

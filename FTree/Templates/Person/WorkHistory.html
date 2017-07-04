@@ -1,0 +1,21 @@
+﻿<div uib-accordion-group class="panel-default panel-accordion-group" heading="{{data.Constants.name_header_person_workHistory}}" is-open="true" ng-if="data.WorkHistory.length > 0">
+    <div class="row" ng-class="'color1'">
+        <sapn class="col-xs-4">Name</sapn>
+        <sapn class="col-xs-2">From</sapn>
+        <sapn class="col-xs-2">To</sapn>
+        <sapn class="col-xs-1">Total</sapn>
+        <sapn class="col-xs-3">Occupation</sapn>
+    </div>
+    <div ng-repeat="w in data.WorkHistory" ng-class-odd="'color1'">
+        <!-- Item -->
+        <div class="row">
+            <span class="col-xs-4">{{w.Name}}</span>
+            <span class="col-xs-2">{{w.DateStart}}</span>
+            <span class="col-xs-2">{{w.DateEnd}}</span>
+            <span class="col-xs-1">{{w.TotalYears}}</span>
+            <span class="col-xs-2">{{w.Occupation}}</span>
+        </div>
+        <!-- Comments -->
+        <comments comments="w.Comments"></comments>
+    </div>
+</div>

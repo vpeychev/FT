@@ -1,0 +1,96 @@
+﻿@import "Constants";
+
+.h4-inline-block {
+    display:inline-block;
+}
+
+h5.row {
+    font-weight: bold;
+    opacity: 0.5;
+    background-color: @color_label;
+    .margin-top-sm;
+}
+
+.list-group-item{
+    padding: 0 0 0 10px;
+    border: none;
+}
+.list-group{
+    border-left: 1px solid #cee0ff;
+}
+.panel-group, .list-group {
+    margin-bottom: 0;
+}
+
+/*pannels*/
+.panel-body {
+    padding: 5px 0 0 0;
+}
+.panel-default{
+    border: none;
+    border-top: 1px solid @color_panel_border;
+
+    .panel-heading-top {
+        color: @color_panel_text;
+        background-color: @color_panel_bg;
+    }
+
+    .panel .panel-heading .panel-title > a { 
+        text-decoration: none;
+    }
+
+    h5 {
+        border-top:1px solid @colorAlt_1; 
+        /*border-bottom:1px solid lightgray;*/ 
+        /*margin:10px 15px;*/
+    }
+}
+
+.panel-accordion-group {
+    .margin-top-sm !important;
+}
+
+/*rows*/
+.row {
+    margin-left:0;
+    margin-right:0;
+
+    hr {
+        .margin-top-xs;
+        .margin-bottom-xs;
+        color: @colorAlt_1;
+    }
+
+    label {
+        max-width:70px;
+        min-width: 50px;
+        padding: 0;
+        color: @color_label;
+        opacity: 0.7;
+    }
+}
+
+/* apply to all uib-acocrdion headers on a family root lavel ONLY! */
+.family-root .panel-heading {
+    padding: 15px 5px;
+    color: @color_panel_text;
+    background-color: @color_panel_bg;
+}
+
+.family-node .panel-heading {
+    color: black; /*#074999;*/
+    background-color: white; /*#9eb6d3;  5a9ada*/
+    padding: 5px;
+}
+
+.text-center>i {
+    color: #2c457b;
+    margin-top:80px;
+    min-height:80px;
+}
+
+node-container > i {
+    position: relative;
+    top: calc(50% - 10px);
+}
+
